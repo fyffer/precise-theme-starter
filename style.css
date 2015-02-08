@@ -1,9 +1,158 @@
 @import url(
-  https://fonts.googleapis.com/css?family=Lato:400,700
+  https://fonts.googleapis.com/css?family=Lato:300,400
 );
 body {
   background: #fff;
   font-family: Lato, sans-serif;
-  margin: 0 0 80px;
+}
+
+text-align: center;
+
+
+h2 {
+  line-height: 44px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 p, h4 p, h5 {
+  text-transform: none;
+  color: #333;
+  font-weight: 400;
+}
+
+p, li, address {
+  font-size: 18px;
+  line-height: 37px;
+  font-weight: 300;
+  color: #666;
+}
+
+header {
+  background: #00b2e2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  height: 230px;
+  padding-top: 15px;
+}
+header h2, header .big, header .biggish, header p, header address, header address a {
+  color: white;
+}
+header p {
+  line-height: 32px;
+}
+header .big {
+  margin-top: 35px;
+  font-size: 48px;
+  line-height: 55px;
+  margin-bottom: 0;
+}
+header .biggish {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+header .passion {
+  margin-bottom: 20px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+header .passion p:before,
+header .passion p::after {
+  content: '"';
+}
+
+section.skills, section.experiences, section.education {
+  text-align: center;
+}
+.skills h3, .passion h3 {
+  display: none;
+}
+
+.well {
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(237, 237, 237, 0);
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  position: relative;
+}
+
+
+.experiences h4, .experiences h4 p, .experiences h5 {
+  display: inline;
+}
+.experiences h4 {
+  margin-right: 20px;
+}
+
+.hero-image {
+  margin-top: 50px;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+
+.hero-text {
+  font-weight: 300;
+  margin: 40px 0 20px;
+}
+
+.portfolio-container header {
+  text-align: left;
+}
+.portfolio-container .profiles {
+  margin-top: 60px;
+}
+.portfolio-container .profiles a {
+  text-decoration: none;
+  color: inherit;
+}
+.portfolio-container .profiles .profile {
+  text-align: center;
+}
+.portfolio-container .profiles .profile .image-wrapper {
+  height: 220px;
+  width: 220px;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+.portfolio-container .profiles .profile .image-wrapper img {
+  width: 220px;
+}
+.portfolio-container .profiles .profile h5 small {
+  color: inherit;
+}
+.portfolio-container .profiles .profile i {
+  display: none;
+}
+
+.list-inline {
+  margin-bottom: 20px;
+}
+.list-inline li {
+  background: #00b2e2;
+  color: white;
+  padding: 0 10px;
+  margin: 5px;
 }
 
