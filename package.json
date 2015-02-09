@@ -1,10 +1,10 @@
 {
-  "name": "precise-branding-starter",
+  "name": "precise-theme-starter",
   "version": "0.0.1",
-  "description": "Example of how to brand a Precise Profile and Portfolio. Use it as a starter for your own company branding",
+  "description": "Example of how to theme a Precise Profile and Portfolio. Use it as a starter for your own company branding",
   "repository": {
     "type": "git",
-    "url": "https://github.com/srbartlett/precise-branding-starter.git"
+    "url": "https://github.com/srbartlett/precise-theme-starter.git"
   },
   "dependencies": {
     "handlebars": "~2.0.0",
