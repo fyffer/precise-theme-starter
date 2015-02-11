@@ -1,6 +1,6 @@
 require "coffee-script/register"
 fs = require("fs")
-Handlebars = require("handlebars");
+Handlebars = require("handlebars")
 
 renderProfile= (profile) ->
   css = fs.readFileSync(__dirname + "/style.css", "utf-8")
