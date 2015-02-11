@@ -28,7 +28,7 @@ With that done:
 2. Install project depenencies using `npm install`
 3. Run the developer server with `grunt`
 
-Open http://localhost:3003/profile in your browser. You should see a Profile with default styling.
+Open http://localhost:9001/profile in your browser. You should see a Profile with default styling.
 
 ## Make it look good
 
@@ -72,14 +72,3 @@ When you are done with **making it look good** it's time to deploy:
 5. After a short pause the theme should be available to preview or select.
 6. Preview the theme to ensure all is well before making permanent.
 7. Rinse and repeat as required.
-
-
-
-
-
-
-
-
-
-
-
