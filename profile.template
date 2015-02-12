@@ -17,8 +17,11 @@
 
       <header class="row">
         <h2 class="name">{{profile.name}}</h2>
+
         <p class="title">{{profile.title}}</p>
-        <p class="passion well well-sm">{{profile.passion}}</p>
+        {{#if profile.passion }}
+          <p class="passion well well-sm">{{profile.passion}}</p>
+        {{/if}}
       </header>
 
       <div class="row">
@@ -28,9 +31,11 @@
           </div>
         </div>
         <div class="col-md-5 bio">
+          {{#if profile.bio }}
           <div class="bio">
             <p>{{profile.bio}}</p>
           </div>
+          {{/if}}
         </div>
       </div>
 
@@ -48,6 +53,7 @@
         </div>
       </div>
 
+      {{#if profile.experiences}}
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
           <section class="experiences">
@@ -67,7 +73,9 @@
           </section>
         </div>
       </div>
+      {{/if}}
 
+      {{#if profile.education_and_trainings}}
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
           <section class="experiences">
@@ -86,6 +94,7 @@
           </section>
         </div>
       </div>
+      {{/if}}
     </div>
   </body>
 </html>
