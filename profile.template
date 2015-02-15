@@ -78,7 +78,7 @@
       {{#if profile.education_and_trainings}}
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
-          <section class="experiences">
+          <section class="education">
             <h3>Education and Training</h3>
 
             {{#each profile.education_and_trainings}}
@@ -91,6 +91,24 @@
 
               <hr class="divider">
             {{/each}}
+          </section>
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if profile.links}}
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <section class="links">
+            <h3>Links</h3>
+
+              <div class="row">
+                <div class="col-md-offset-1 col-md-10">
+                  {{#each profile.links}}
+                    <h4><a href="{{this.url}}">{{this.title}}</a></h4>
+                  {{/each}}
+                </div>
+              </div>
           </section>
         </div>
       </div>

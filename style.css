@@ -5,6 +5,7 @@
 body {
   background: #fff;
   font-family: Lato, sans-serif;
+  padding-bottom: 40px;
 }
 
 h3 {
@@ -104,14 +105,18 @@ header h2, header p {
   margin: 5px;
 }
 
-.skills, .experiences {
+.skills, .experiences, .education, .links {
   text-align: center;
 }
 
-.experiences h4 {
+.experiences h4, .links h4 {
   margin-right: 20px;
 }
 
 .experiences h4, .experiences h4 p, .experiences h5 {
+  display: inline;
+}
+
+.links h4{
   display: inline;
 }

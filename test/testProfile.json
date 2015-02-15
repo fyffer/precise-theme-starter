@@ -59,13 +59,16 @@
   ],
   "links": [
     {
-      "name": "github.com/example"
+      "title": "github",
+      "url": "http://github.com/example"
     },
     {
-      "name": "@example"
+      "title": "twitter",
+      "url": "http://twitter.com/example"
     },
     {
-      "name": "hello@example.com"
+      "title": "email",
+      "url": "hello@example.com"
     }
   ],
   "created_at": "2015-01-21T22:50:23.903Z"
